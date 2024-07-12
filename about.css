@@ -187,9 +187,14 @@ p {
 .card:hover .glow {
     opacity: 1;
 }
+.head-major-event h1{
+    font-size:34px;
+}
 
-
-
+.headings h1{
+    font-size:34px;
+    text-align: center;
+}
 
 /**
  * responsive for larger than 992px screen
@@ -207,6 +212,36 @@ p {
         margin-right: 30px;
         margin-bottom: 30px;
     }
+    .card-container {
+
+    width: 300px;
+    height: 250px;
+
+}
+.head-major-event h1{
+    font-size:24px;
+    text-align: center;
+    margin: auto;
+}
+.head-major-event{
+    width:350px;
+}
+.headings h1{
+    font-size:34px;
+    text-align: center;
+    margin-right: 50px;
+}
+.headings hr{
+   display: none;
+
+}
+
+.card-content h2{
+    font-size: 14px;
+}
+.button-about{
+    font-size: 14px;
+}
 }
 
 @media(min-width:401px) and (max-width:576px) {
@@ -237,8 +272,14 @@ p {
         min-height: 40vh;
     }
 
-
-
+    /*.head-major-event h1{
+    font-size:24px;
+    text-align: center;
+    margin: auto;
+    }*/
+     .head-major-event{
+    width:430px;
+    }
 
 }
 
@@ -949,9 +990,9 @@ h3 {
 
 }
 
-.head-major-event {
+/*.head-major-event {
     width: 400px;
-}
+}*/
 
 .head-major-event hr {
     border: 3;
@@ -1049,7 +1090,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-
+    overflow-x: hidden;
     /* Prevent horizontal scrolling */
 }
 
@@ -1202,10 +1243,11 @@ footer {
         z-index: 10;
         box-sizing: border-box;
 
-        /* Center the box horizontally */
-        margin-left: 273px;
+         
         min-width: 308px;
-        margin-right: 300px;
+        /* Center the box horizontally */
+        margin-left: -70px;
+        margin-right: 0px;
         /* Set a minimum width */
 
     }
